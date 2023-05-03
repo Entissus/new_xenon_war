@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<diff>
+	<add sel="//groups">
+		<group name="xen_lx">
+			<select macro="ship_xen_s_fighter_lx_macro" weight="100" />
+		</group>
+	</add>	
+</diff>
