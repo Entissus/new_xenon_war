@@ -8,6 +8,13 @@
 		</pilot>
 		<drop ref="ship_large_xenon"/>
 	</ship>
+	<ship id="xenon_battleship_reclaimer" group="xen_carrier_xl" capturable="false">
+		<category tags="[military, battleship]" faction="[xenon]" size="ship_xl"/>
+		<pilot>
+			<select faction="xenon" tags="fighterpilot"/>
+		</pilot>
+		<drop ref="ship_large_xenon"/>
+	</ship>	
 	<ship id="xenon_lx_bomber_escort" group="xen_lx" capturable="false">
 		<category tags="[military, bomber]" faction="[xenon]" size="ship_s"/>
 		<pilot>

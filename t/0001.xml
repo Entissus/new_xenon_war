@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+
+	<page id="48000" title="names" descr="descriptions" voice="no">
+		<t id="1">System Analyst</t>	
+		<t id="2">Reclamation</t>	
+		<t id="3">Branch 5</t>			
+	</page>
+</language>	
