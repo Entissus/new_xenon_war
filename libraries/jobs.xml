@@ -196,7 +196,7 @@
 		</orders>
 		<category faction="xenon" tags="[military, defender]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_33_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_33_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
@@ -217,7 +217,7 @@
 		</orders>
 		<category faction="xenon" tags="[military, defender]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_17_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_17_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
@@ -238,7 +238,7 @@
 		</orders>
 		<category faction="xenon" tags="[military, defender]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_26_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_26_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
@@ -259,7 +259,7 @@
 		</orders>
 		<category faction="xenon" tags="[military, defender]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_21_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_21_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
@@ -280,7 +280,7 @@
 		</orders>
 		<category faction="xenon" tags="[military, defender]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_112_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_112_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
@@ -495,7 +495,7 @@
 		</orders>
 		<category faction="xenon" tags="[factionlogic, military, battleship]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_33_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_33_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, battleship]" size="ship_xl"/>
@@ -519,7 +519,7 @@
 		</orders>
 		<category faction="xenon" tags="[factionlogic, military, battleship]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_17_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_17_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, battleship]" size="ship_xl"/>
@@ -543,7 +543,7 @@
 		</orders>
 		<category faction="xenon" tags="[factionlogic, military, battleship]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_26_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_26_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, battleship]" size="ship_xl"/>
@@ -567,7 +567,7 @@
 		</orders>
 		<category faction="xenon" tags="[factionlogic, military, battleship]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_21_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_21_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, battleship]" size="ship_xl"/>
@@ -591,7 +591,7 @@
 		</orders>
 		<category faction="xenon" tags="[factionlogic, military, battleship]" size="ship_xl"/>
 		<quota galaxy="1" maxgalaxy="2" />
-		<location class="sector" macro="Cluster_112_Sector002_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+		<location class="sector" macro="Cluster_112_Sector001_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
 			<select faction="xenon" tags="[military, battleship]" size="ship_xl"/>

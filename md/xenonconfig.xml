@@ -72,23 +72,6 @@
 				<set_job_active job="'xenon_carrier_savage_spur'" activate="true"/>
 				<debug_text text="'Third Defenders activated'"/>
 			</actions>
-		</cue>
-		
-		<cue name="activatereclaimer" instantiate="true">
-			<conditions>
-				<event_cue_signalled cue="md.Setup.Start" />
-				<check_value value="player.age ge 0h"/> <!-- 6h -->
-			</conditions>
-			<actions>			
-				<set_job_active job="'xenon_reclaimer_emperor_pride'" activate="true"/>
-				<set_job_active job="'xenon_reclaimer_matrix598'" activate="true"/>
-				<set_job_active job="'xenon_reclaimer_matrix79b'" activate="true"/>
-				<set_job_active job="'xenon_reclaimer_matrix9'" activate="true"/>
-				<set_job_active job="'xenon_reclaimer_atiyas_misfortune'" activate="true"/>
-				<set_job_active job="'xenon_reclaimer_scale_plate_green'" activate="true"/>
-				<set_job_active job="'xenon_reclaimer_savage_spur'" activate="true"/>
-				<debug_text text="'Reclaimers activated'"/>
-			</actions>
-		</cue>		
+		</cue>	
 	</cues>
 </mdscript>

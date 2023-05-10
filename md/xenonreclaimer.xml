@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="xenonreclaimer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<actions>
+				<find_sector groupname="$XenonCore" multiple="true" space="player.galaxy" macro="[macro.Cluster_424_Sector002_macro,macro.Cluster_415_Sector001_macro,macro.Cluster_33_Sector001_macro,macro.Cluster_17_Sector001_macro,macro.Cluster_26_Sector001_macro,macro.Cluster_21_Sector001_macro,macro.Cluster_112_Sector001_macro"/>
+			</actions>
+			<cues>
+				<cue name="Emperor_Pride" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_424_Sector002_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_emperor_pride'" activate="true"/>
+					</actions>
+				</cue>
+				<cue name="Matrix598" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_415_Sector001_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_matrix598'" activate="true"/>
+					</actions>
+				</cue>
+				<cue name="Matrix79b" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_33_Sector001_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_matrix79b'" activate="true"/>
+					</actions>
+				</cue>
+				<cue name="Matrix9" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_17_Sector001_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_matrix9'" activate="true"/>
+					</actions>
+				</cue>
+				<cue name="Atiyas_Misfortune" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_26_Sector001_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_atiyas_misfortune'" activate="true"/>
+					</actions>
+				</cue>
+				<cue name="Scale_Plate_Green" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_21_Sector001_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_scale_plate_green'" activate="true"/>
+					</actions>
+				</cue>
+				<cue name="Savage_Spur" instantiate="false">
+					<conditions>
+						<event_object_changed_owner group="$XenonCore"/>
+						<check_value value="event.param2 == faction.xenon"/>
+						<check_value value="event.object.macro == macro.Cluster_112_Sector001_macro"/>
+					</conditions>
+					<actions>
+						<set_job_active job="'xenon_reclaimer_savage_spur'" activate="true"/>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>
