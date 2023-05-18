@@ -21,7 +21,7 @@
 		<cue name="ActivateMiners" instantiate="true">
 			<conditions>			
 				<event_cue_signalled cue="md.Setup.Start" />
-				<check_value value="player.age ge 0h"/>		<!-- 3h -->			
+				<check_value value="player.age ge 3h"/>		<!-- 3h -->			
 			</conditions>
 			<actions>
 				<set_job_active job="'xenon_miner_emperor_pride'" activate="true"/>
@@ -38,7 +38,7 @@
 		<cue name="ActivateTraders" instantiate="true">
 			<conditions>			
 				<event_cue_signalled cue="md.Setup.Start" />
-				<check_value value="player.age ge 0h"/>		<!-- 3h -->			
+				<check_value value="player.age ge 3h"/>		<!-- 3h -->			
 			</conditions>
 			<actions>
 				<set_job_active job="'xenon_trader_emperor_pride'" activate="true"/>
@@ -55,7 +55,7 @@
 		<cue name="ActivateDefender1" instantiate="true">
 			<conditions>
 				<event_cue_signalled cue="md.Setup.Start" />
-				<check_value value="player.age ge 0h"/>	<!-- 2h -->
+				<check_value value="player.age ge 2h"/>	<!-- 2h -->
 			</conditions>
 			<actions>		
 				<set_job_active job="'xenon_strike_craft_emperor_pride'" activate="true"/>
@@ -73,7 +73,7 @@
 		<cue name="ActivateDefender2" instantiate="true">
 			<conditions>
 				<event_cue_signalled cue="md.Setup.Start" />
-				<check_value value="player.age ge 0h"/> <!-- 4h -->
+				<check_value value="player.age ge 4h"/> <!-- 4h -->
 			</conditions>
 			<actions>			
 				<set_job_active job="'xenon_destroyers_emperor_pride'" activate="true"/>
@@ -92,7 +92,7 @@
 		<cue name="ActivateDefender3" instantiate="true">
 			<conditions>
 				<event_cue_signalled cue="md.Setup.Start" />
-				<check_value value="player.age ge 0h"/> <!-- 8h -->
+				<check_value value="player.age ge 8h"/> <!-- 8h -->
 			</conditions>
 			<actions>			
 				<set_job_active job="'xenon_carrier_emperor_pride'" activate="true"/>
